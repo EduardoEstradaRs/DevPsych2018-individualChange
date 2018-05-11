@@ -7,8 +7,8 @@
 # Developmental Psychology.
 
 
-d <- samples[[1]]$d.calib       # A data frame composed of a set of observations coming from 2 known populations/groups
-d.test <- samples[[1]]$d.test   # A data frame composed of new observations. They come from either one of the 2 groups, 
+d <- d.calib       # A data frame composed of a set of observations coming from 2 known populations/groups
+d.test <- d.test   # A data frame composed of new observations. They come from either one of the 2 groups, 
 
 
 vars <- c("gviq1","gviq3", "gviq5","gviq7","gviq9") # Repeated measures of the variable at grades 1,3,5,7,9
@@ -324,9 +324,5 @@ d.test <- LCSi(data.calib = d,
                y1="gviq1", y2="gviq3")
 
 with(d.test, plot(gviq3_obsRes, gviq3_Lres)) # Compare observed and latent residuals
-
-
-
-
 
 
