@@ -4,7 +4,8 @@
 # R code for the analysis described in:
 # Estrada, Ferrer, Shaywitz, Holahan, & Shaywitz (2018).
 # Identifying atypical change at the individual level from childhood to adolescence.
-# Developmental Psychology.
+# Developmental Psychology 54(11), 2193-2206.
+# http://dx.doi.org/10.1037/dev0000583
 
 
 d <- d.calib       # A data frame composed of a set of observations coming from 2 known populations/groups
